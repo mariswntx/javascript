@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagens </title>
+</head>
+<style>
+    button {
+        font-size: 14px;
+        padding: 10px;
+    }
+</style>
+
+<body>
+    <h1> Desafio das mensagens </h1>
+
+    <button onclick="BotaoTeste1()"> Botão 1</button>
+
+    <button onclick="BotaoTeste2()"> Botão 2</button>
+
+    <button onclick="BotaoTeste3()"> Botão 3</button>
+
+    <script>
+
+        function BotaoTeste1() {
+
+            document.body.style.backgroundColor = 'violet'
+        }
+        function BotaoTeste2() {
+
+            document.body.style.backgroundColor = 'blue'
+        }
+        function BotaoTeste3() {
+
+            document.body.style.backgroundColor = 'grey'
+        }
+
+        //Declarando variaveis 
+        //String - conjunto de caracteres - Declarar com " " ou ' '
+        var nome = "Maria"
+        var sobrenonme = "Santos"
+        //number - todo numero em js é do tipo number - declarar sem " "
+        var idade = 16
+        //boolean - somente rece true ou false 
+        var aprovado = true 
+
+        console.log ( typeof nome ) //comando typeoff pra saber qual o tipo do dado 
+
+        console.log( nome + ' ' + sobrenonme) // conectando strings com o + 
+        // Se utulizarmos o + com o string ele cocatena se utilizar com o number soma
+        var n1 = 10
+        var n2 = 25
+        console.log(n1 + n2)// ira somar as 2 variaveis number (35)
+        var n3 = "10"
+        var n4 = "25" 
+        console.log(n3 + n4) // ira "juntar" as duas variaveis ("1025")
+
+        n1 = n2 // uma variavel pode receber o valor de outra variavel 
+        console.log( "n1 = " + n1 + 'e o n2 = ' +n2 )
+
+        var salario = 1290.85 // para atribuir um valor decimal utilizar . nao ,
+        salario = salario + 200 //posso tambem somar a variavel com ela mesma 
+        console.log (salario)
+        salario += 200 // representação mais simplificada da expressão acima
+        console.log(salario)
+
+        //antigamente para juntar textos e variáveis faziamos assim 
+        console.log('ola, ' + nome + ' voce tem ' + idade + ' anos e recebe R$ ' + salario)
+        //hoje utilizamos o TempateString forma mais simples 
+        console.log(`ola, ${nome} voce tem ${idade} anos e recebe R$ ${salario}`)
+
+
+
+
+
+
+
+
+
+
+    </script>
+</body>
+
+</html>

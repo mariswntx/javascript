@@ -1,0 +1,23 @@
+.aprov {
+    color: green;
+}
+
+.repr {
+    color: red;
+}
+body{
+    background-color: darkviolet;
+    text-align: center;
+}
+div{
+    background-color: beige;
+    border-radius: 10px;
+    min-height: 400px;
+    max-width: 500px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px;
+}
+button{
+    padding: 10px;
+}

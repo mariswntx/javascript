@@ -1,0 +1,39 @@
+body{
+    background-color: mediumpurple;
+    text-align: center;
+}
+.principal{
+    margin: 0 auto;
+    margin-top: 30px;
+    background-color: white;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 6px rgba(49, 49, 49, 0.718);
+    padding: 15px;
+    text-align: center;
+    display:flex;
+    justify-content: space-around;
+}
+button{
+    margin-top: 20PX;
+    font-size: 20PX;
+    padding: 0PX 30PX 0PX 30PX;
+    background-color: violet;
+    border-radius: 4px;
+}
+.x{
+    font-size: 60px;
+    color: rgb(20, 83, 255);
+    text-shadow: 2px 2px 2px rgb(15, 0, 128);
+}
+h2{
+    background-color: blueviolet;
+    border-radius: 4px;
+    padding: 0px 50px 0px 50px;
+}
+#placar{
+    font-size: 50px;
+}
+#placar2{
+    font-size: 50px;
+}
